@@ -1,0 +1,13 @@
+version: '3'
+services:
+    girlpower:
+        build: girlpower
+    
+    auldfellas:
+        build: auldfellas
+    broker:
+        build: broker
+    dodgydrivers:
+        build: dodgydrivers
+    client:
+        build: client   
